@@ -1,0 +1,70 @@
+body {
+  font-family: Arial;
+  background: #f3f3f3;
+}
+
+.container {
+  width: 1000px;
+  margin: auto;
+  margin-top: 40px;
+}
+
+.query-panel {
+  margin-bottom: 20px;
+}
+
+select,
+button {
+  padding: 6px;
+  margin-right: 10px;
+  border-radius: 5px;
+}
+
+button.confirm {
+  color: #ddd;
+  background-color: green;
+  border-color: #ddd;
+  width: 100px;
+}
+
+button.error {
+  color: #ddd;
+  background-color: rgb(99, 20, 20);
+  border-color: #ddd;
+  width: 80px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th {
+  background: black;
+  color: white;
+  cursor: pointer;
+}
+
+td,
+th {
+  padding: 8px;
+  border: 1px solid #ddd;
+}
+
+.table-wrapper {
+  max-height: 350px;
+  overflow-y: auto;
+  margin-top: 20px;
+}
+
+.x-icon {
+  padding: 2px;
+  margin-left: 10px;
+  border-radius: 5px;
+}
+
+.chart {
+  margin-top: 30px;
+  background: white;
+  padding: 20px;
+}
